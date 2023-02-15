@@ -4,7 +4,7 @@ const TURN_SERVER_URL = 'ccff-ic.iesvalledeljerteplasencia.es:3478';
 const TURN_SERVER_USERNAME = 'test';
 const TURN_SERVER_CREDENTIAL = 'test';
 
-const STUN_SERVER_URL = 'stun:stun.l.google.com:19302';
+// const STUN_SERVER_URL = 'stun:stun.l.google.com:19302';
 const STUN_SERVER_URL = 'ccff-ic.iesvalledeljerteplasencia.es:3478';
 
 // WebRTC config: you don't have to change this for the example to work
