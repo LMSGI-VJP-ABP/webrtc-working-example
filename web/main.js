@@ -3,6 +3,9 @@ const SIGNALING_SERVER_URL = 'https://ccff-ic.iesvalledeljerteplasencia.es:9999'
 const TURN_SERVER_URL = 'ccff-ic.iesvalledeljerteplasencia.es:3478';
 const TURN_SERVER_USERNAME = 'test';
 const TURN_SERVER_CREDENTIAL = 'test';
+
+const STUN_SERVER_URL = 'stun:stun.l.google.com:19302';
+
 // WebRTC config: you don't have to change this for the example to work
 // If you are testing on localhost, you can just use PC_CONFIG = {}
 const PC_CONFIG = {
@@ -16,6 +19,9 @@ const PC_CONFIG = {
       urls: 'turn:' + TURN_SERVER_URL + '?transport=udp',
       username: TURN_SERVER_USERNAME,
       credential: TURN_SERVER_CREDENTIAL
+    },
+    {
+      urls: STUN_SERVER_URL
     }
   ]
 };
