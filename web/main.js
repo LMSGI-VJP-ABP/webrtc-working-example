@@ -1,8 +1,8 @@
 // Config variables: change them to point to your own servers
-const SIGNALING_SERVER_URL = 'http://localhost:9999';
-const TURN_SERVER_URL = 'localhost:3478';
-const TURN_SERVER_USERNAME = 'username';
-const TURN_SERVER_CREDENTIAL = 'credential';
+const SIGNALING_SERVER_URL = 'https://ccff-ic.iesvalledeljerteplasencia.es:9999';
+const TURN_SERVER_URL = 'ccff-ic.iesvalledeljerteplasencia.es:3478';
+const TURN_SERVER_USERNAME = 'test';
+const TURN_SERVER_CREDENTIAL = 'test';
 // WebRTC config: you don't have to change this for the example to work
 // If you are testing on localhost, you can just use PC_CONFIG = {}
 const PC_CONFIG = {
